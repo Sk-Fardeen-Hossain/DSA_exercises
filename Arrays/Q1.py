@@ -15,3 +15,13 @@
 # # 5. You returned an item that you bought in a month of April and
 # # got a refund of 200$. Make a correction to your monthly expense list
 # # based on this
+
+expense_list = [2200,2350,2600,2130,2190]
+quarter_expense = expense_list[0]+expense_list[1]+expense_list[2]
+print(f"Your total extra expenses in February is {expense_list[1]-expense_list[0]}")
+print(f"Your total expense in first quarter is {quarter_expense}")
+print("Did you spend 2000$ in any month?",2000 in expense_list)
+expense_list.append(1980)
+expense_list[3]= expense_list[3]-200
+print(expense_list)
+    
